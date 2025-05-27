@@ -16,3 +16,4 @@
     <li><a ![Dashboard Overview](gifs/overview.gif)>Click here to check out the Apple Inc. Dashboard.</a> </li>
   </ul>
 </div>
+![Dashboard Overview](overview.gif)
