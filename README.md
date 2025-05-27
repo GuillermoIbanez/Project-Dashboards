@@ -16,4 +16,6 @@
     <li><a ![Dashboard Overview](gifs/overview.gif)>Click here to check out the Apple Inc. Dashboard.</a> </li>
   </ul>
 </div>
-![Dashboard Overview](overview.gif)
+<div align="center">
+  <img src="overview.gif" alt="Dashboard Overview" width="100%" max-width="800px"/>
+</div>
