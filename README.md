@@ -13,9 +13,16 @@
 <div>
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Apple Inc. Financial Analysis Dashboard</h2>
   <ul>
-    <li><a ![Dashboard Overview](gifs/overview.gif)>Click here to check out the Apple Inc. Dashboard.</a> </li>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>General Overview</a> </li>
   </ul>
 </div>
 <div align="center">
   <img src="overview.gif" alt="Dashboard Overview" width="100%" max-width="800px"/>
+</div>
+  <ul>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>General Overview</a> </li>
+  </ul>
+</div>
+<div align="center">
+  <img src="interactive_chart.gif" alt="Interactive Financial Medtrics Dropdown Menu" width="100%" max-width="800px"/>
 </div>
