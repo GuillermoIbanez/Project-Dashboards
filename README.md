@@ -20,9 +20,24 @@
   <img src="overview.gif" alt="Dashboard Overview" width="100%" max-width="800px"/>
 </div>
   <ul>
-    <li><a ![Dashboard Overview](gifs/overview.gif)>General Overview</a> </li>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>Interactive Financial Medtrics Dropdown Menu</a> </li>
   </ul>
 </div>
 <div align="center">
   <img src="interactive_chart.gif" alt="Interactive Financial Medtrics Dropdown Menu" width="100%" max-width="800px"/>
 </div>
+  <ul>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>Interactive Pie Chart and Map</a> </li>
+  </ul>
+</div>
+<div align="center">
+  <img src="pie_map.gif" alt="Interactive Pie Chart and Map" width="100%" max-width="800px"/>
+</div>
+  <ul>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>Interactive Financial Documents Tables</a> </li>
+  </ul>
+</div>
+<div align="center">
+  <img src="raw_data.gif" alt="Interactive Financial Documents Tables" width="100%" max-width="800px"/>
+</div>
+
