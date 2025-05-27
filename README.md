@@ -13,7 +13,7 @@
 <div>
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Apple Inc. Financial Analysis Dashboard</h2>
   <ul>
-    <li><a href="https://guillermoibanez.github.io/Dashboard/overview.gif">Click here to check out the Apple Inc. Dashboard.</a> </li>
+    <li><a ![Dashboard Overview](gifs/overview.gif)>Click here to check out the Apple Inc. Dashboard.</a> </li>
   </ul>
 </div>
 
