@@ -16,12 +16,3 @@
     <li><a ![Dashboard Overview](gifs/overview.gif)>Click here to check out the Apple Inc. Dashboard.</a> </li>
   </ul>
 </div>
-<div align="center">
-  <h1>🍎 Apple Financial Dashboard 📊</h1>
-  <p><em>Professional interactive dashboard built with Python, Dash, and Plotly</em></p>
-</div>
-
-## 🎯 Dashboard Overview
-<div align="center">
-  <img src="gifs/overview.gif" alt="Dashboard Overview" width="800"/>
-</div>
