@@ -14,6 +14,9 @@
 
 <div>
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;"> Apple Inc. Financial Analysis Dashboard</h2>
+      <ul>
+      <li>This Dashboard uses the raw annual financial results of Apple Inc. (10k document) in xls. format. The Dashboard allows a quick and visual exploration of the results.</li>
+    </ul>
   
   <!-- General Overview Section -->
   <h3><strong>📊 General Overview</strong></h3>
