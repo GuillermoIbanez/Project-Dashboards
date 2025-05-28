@@ -320,7 +320,7 @@ print("✅ Data processing functions defined successfully!")
 # ============================================================================
 
 # UPDATE THIS PATH TO YOUR FILE
-file_path = "/Users/karol/Desktop/Guillermo/CV/Git_Hub/Apple_dashboard/apple_annual_report.xls"
+file_path = "apple_annual_report.xls"
 
 print("🔄 Loading your Apple financial data...")
 try:
