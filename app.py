@@ -1673,7 +1673,9 @@ print("🎯 Part 4 Complete! Ready for Part 5 (Run Dashboard)...")
 # ============================================================================
 
 # Run the Enhanced Dashboard
+
 if __name__ == '__main__':
+    app.run_server(host='0.0.0.0', port=int(os.environ.get('PORT', 8050)))
     print("🚀 Starting Enhanced Apple Financial Dashboard with Geographic Map...")
     print("=" * 70)
     print("📊 DASHBOARD FEATURES:")
@@ -1946,7 +1948,5 @@ print("""
 print("✅ Part 5 Complete! Dashboard ready to run!")
 print("🎯 Execute this file to start your enhanced Apple Financial Dashboard!")
 
-if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=int(os.environ.get('PORT', 8050)))
 
 
