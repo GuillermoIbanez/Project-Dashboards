@@ -322,6 +322,16 @@ print("✅ Data processing functions defined successfully!")
 # UPDATE THIS PATH TO YOUR FILE
 file_path = "apple_annual_report.xls"
 
+# DEBUG: Let's see what files are available
+import os
+print("=== DEBUG INFO ===")
+print("Current directory:", os.getcwd())
+print("Files in current directory:", os.listdir('.'))
+print("Looking for file:", file_path)
+print("File exists?", os.path.exists(file_path))
+print("==================")
+
+
 print("🔄 Loading your Apple financial data...")
 try:
     data = load_excel_for_dash(file_path)
