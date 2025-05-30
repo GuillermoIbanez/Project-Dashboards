@@ -46,8 +46,3 @@
       <ul>
       <li>Click this link to check out the dashboard on your web browser (might take a couple of minutes to charge): https://project-dashboards-2.onrender.com</li>
     </ul>
-
-
-
-
-https://project-dashboards-2.onrender.com/
