@@ -43,6 +43,7 @@
   </div>
 </div>
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard had been deployed using Render</h2>
-      <ul>
-      <li>Click this link to check out the dashboard on your web browser (might take a couple of minutes to charge): https://project-dashboards-2.onrender.com</li>
-    </ul>
+<ul>
+  <li>Click this link to check out the dashboard on your web browser (might take a couple of minutes to charge):<br>
+  <a href="https://project-dashboards-2.onrender.com" target="_blank">https://project-dashboards-2.onrender.com</a></li>
+</ul>
