@@ -7,7 +7,7 @@
   <h2>📋 Summary</h2>
   <p>
     <ul>
-      <li>This Repository is set up to display some of my Dashboard capabilities using Python.</li>
+      <li>This Repository is set up to display some of my Dashboard capabilities using Python. Find below a visual summary of the dashboard tools as well as the link to open the dashboard on your web browser.</li>
     </ul>
   </p>
 </div>
