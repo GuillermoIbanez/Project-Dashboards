@@ -227,19 +227,85 @@ def load_excel_for_dash(file_path: str) -> Dict[str, pd.DataFrame]:
         print(f"Error processing financial data: {e}")
         return {sheet: pd.DataFrame() for sheet in ['INCOME_STATEMENT', 'BALANCE_SHEET', 'TABLE6', 'TABLE7']}
 
-# Load data
+# ============================================================================
+# LOAD DATA - WITH ERROR HANDLING
+# ============================================================================
+
+def create_sample_data():
+    """Create sample data when Excel file is not available"""
+    
+    # Sample Income Statement data
+    sample_income = pd.DataFrame({
+        'Item': [
+            'Products',
+            'Services', 
+            'Total net sales',
+            'Cost of sales',
+            'Gross margin',
+            'Operating expenses',
+            'Total operating expenses',
+            'Operating income',
+            'Net income'
+        ],
+        '2024': [300000, 96000, 391035, 210352, 180683, 61775, 61775, 118908, 93736],
+        '2023': [298085, 85200, 383285, 214137, 169148, 55013, 55013, 114135, 96995],
+        '2022': [316199, 78129, 394328, 223546, 170782, 51344, 51344, 119437, 99803]
+    })
+    
+    # Sample Regional data
+    sample_regions = pd.DataFrame({
+        'Region': ['Americas', 'Europe', 'Greater China', 'Japan', 'Rest of Asia Pacific'],
+        '2024': [124300, 73930, 72480, 24257, 29615],
+        'Change_24': [0.03, -0.01, -0.13, 0.02, 0.04],
+        '2023': [120920, 74690, 83370, 23810, 28430],
+        'Change_23': [0.02, 0.01, -0.02, 0.05, 0.03],
+        '2022': [118540, 73980, 85040, 22680, 27560]
+    })
+    
+    # Sample Product data
+    sample_products = pd.DataFrame({
+        'Product': ['iPhone', 'Mac', 'iPad', 'Wearables, Home and Accessories', 'Services'],
+        '2024': [200583, 29357, 28300, 37017, 96169],
+        'Change_24': [0.006, 0.024, -0.065, 0.027, 0.129],
+        '2023': [199940, 28680, 30240, 36050, 85200],
+        'Change_23': [-0.027, 0.017, -0.035, 0.089, 0.086],
+        '2022': [205489, 28200, 31350, 33100, 78500]
+    })
+    
+    # Sample Balance Sheet data
+    sample_balance = pd.DataFrame({
+        'Item': [
+            'Cash and cash equivalents',
+            'Total current assets',
+            'Total assets',
+            'Total current liabilities',
+            'Total liabilities',
+            'Total shareholders equity'
+        ],
+        '2024': [67150, 143566, 364840, 137550, 308030, 56810],
+        '2023': [61555, 143630, 352755, 133973, 290020, 62735]
+    })
+    
+    return {
+        'INCOME_STATEMENT': sample_income,
+        'BALANCE_SHEET': sample_balance,
+        'TABLE6': sample_regions,
+        'TABLE7': sample_products
+    }
+
 file_path = "apple_annual_report.xls"
 
-try:
-    data = load_excel_for_dash(file_path)
-except Exception as e:
-    print(f"Error: {e}")
-    data = {
-        'INCOME_STATEMENT': pd.DataFrame(),
-        'BALANCE_SHEET': pd.DataFrame(),
-        'TABLE6': pd.DataFrame(),
-        'TABLE7': pd.DataFrame()
-    }
+# Check if file exists, if not create sample data
+if os.path.exists(file_path):
+    try:
+        data = load_excel_for_dash(file_path)
+        print("Excel file loaded successfully")
+    except Exception as e:
+        print(f"Error loading Excel file: {e}")
+        data = create_sample_data()
+else:
+    print(f"Excel file {file_path} not found, using sample data")
+    data = create_sample_data()
     # ============================================================================
 # CHART FUNCTIONS
 # ============================================================================
