@@ -295,6 +295,7 @@ def create_sample_data():
 
 file_path = "apple_annual_report.xls"
 
+
 # Check if file exists, if not create sample data
 if os.path.exists(file_path):
     try:
