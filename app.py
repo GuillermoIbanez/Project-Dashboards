@@ -1107,8 +1107,7 @@ def update_table(selected_table):
 
 # CRITICAL: Expose the server for AWS App Runner
 server = app.server
-
 if __name__ == '__main__':
-    app.run_server(host='0.0.0.0', port=8000, debug=False)
-
+    port = int(os.environ.get('PORT', 8000))
+    app.run_server(host='0.0.0.0', port=port, debug=False)
 
