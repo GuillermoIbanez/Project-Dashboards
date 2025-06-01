@@ -679,7 +679,7 @@ def create_key_metrics_cards_clean(income_df):
 # Initialize Dash
 app = dash.Dash(__name__)
 
-# Enhanced layout with centered charts and improved dropdowns
+# Dashboard layout
 app.layout = html.Div([
     # Header
     html.Div([
@@ -698,12 +698,12 @@ app.layout = html.Div([
     ], style={'background': 'white', 'padding': '30px', 'border-radius': '12px', 
               'margin-bottom': '30px', 'box-shadow': '0 4px 15px rgba(0,0,0,0.08)', 'border': '1px solid #E8E8E8'}),
     
-    # Enhanced Revenue Chart Section with Improved Dropdown
+    # Enhanced Revenue Chart Section
     html.Div([
         html.Div([
             html.H3("Financial Metrics Overview", style={'color': '#2C3E50', 'margin-bottom': '20px', 'font-weight': '400'}),
             
-            # Enhanced dropdown with better visibility and instructions
+            # Enhanced dropdown controls
             html.Div([
                 html.Label("Interactive Chart Controls", 
                           style={'color': '#2C3E50', 'font-size': '16px', 'font-weight': '600', 'margin-bottom': '8px', 'display': 'block'}),
@@ -740,11 +740,10 @@ app.layout = html.Div([
     ], style={'background': 'white', 'padding': '25px', 'border-radius': '12px', 
               'box-shadow': '0 4px 15px rgba(0,0,0,0.08)', 'margin-bottom': '30px', 'border': '1px solid #E8E8E8'}),
     
-    # CENTERED CHARTS SECTION - Product Pie Chart and Geographic Map
+    # Centered Charts Section - Product Pie Chart and Geographic Map
     html.Div([
-        # Centered container for both charts
         html.Div([
-            # Product Breakdown Chart (Centered)
+            # Product Breakdown Chart
             html.Div([
                 dcc.Graph(id="product-chart")
             ], style={
@@ -757,7 +756,7 @@ app.layout = html.Div([
                 'width': '100%'
             }),
             
-            # Geographic Map (Centered)
+            # Geographic Map
             html.Div([
                 dcc.Graph(id="geographic-map")
             ], style={
@@ -775,12 +774,12 @@ app.layout = html.Div([
         })
     ], style={'margin-bottom': '30px'}),
     
-    # Data Tables Section with Enhanced Dropdown
+    # Data Tables Section
     html.Div([
         html.H2("Raw Data", 
                 style={'color': '#2C3E50', 'margin-bottom': '25px', 'border-bottom': '3px solid #4A6FA5', 'padding-bottom': '12px', 'font-weight': '400'}),
         
-        # Enhanced dropdown with better visibility and instructions
+        # Enhanced dropdown for table selection
         html.Div([
             html.Label("Document Selector", 
                       style={'color': '#2C3E50', 'font-size': '16px', 'font-weight': '600', 'margin-bottom': '8px', 'display': 'block'}),
@@ -812,7 +811,7 @@ app.layout = html.Div([
             'margin-bottom': '25px'
         }),
         
-        # Data table
+        # Data table container
         html.Div(id="data-table-container")
     ], style={'background': 'white', 'padding': '30px', 'border-radius': '12px', 
               'margin-top': '0px', 'box-shadow': '0 4px 15px rgba(0,0,0,0.08)', 'border': '1px solid #E8E8E8'})
@@ -825,7 +824,6 @@ app.layout = html.Div([
     'font-weight': '300',
     'min-height': '100vh'
 })
-
 # ============================================================================
 # DASHBOARD CALLBACKS
 # ============================================================================
