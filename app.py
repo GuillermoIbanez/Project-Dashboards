@@ -1,7 +1,9 @@
 # ============================================================================
 # APPLE FINANCIAL DASHBOARD - IMPORTS AND DATA PROCESSING
 # ============================================================================
-
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 import pandas as pd
 import numpy as np
 import os
