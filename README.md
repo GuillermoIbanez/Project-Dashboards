@@ -49,7 +49,6 @@
 </ul>
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard has also been deployed using AWS Amazon Lightsail</h2>
 <ul>
-</ul> <h2><img src="https://raw.githubusercontent.com/weibeld/aws-icons-svg/main/Architecture-Service-Icons_05102023/Arch_Compute/48/Arch_AWS-Lightsail_48.svg" alt="AWS Lightsail Icon" width="32" height="32" style="vertical-align: -0.25em;"> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon&logoColor=white" alt="Amazon Web Services Icon" width="32" height="32" style="vertical-align: -0.25em;"> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard has also been deployed using AWS Amazon Lightsail</h2><ul>
   <li>Click this link to check out the dashboard on your web browser:<br>
   <a href="http://18.196.82.106:8000/" target="_blank"></a>http://18.196.82.106:8000/</li>
 </ul>
