@@ -50,9 +50,5 @@
   <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard has also been deployed using AWS Amazon Lightsail</h2>
 <ul>
   <li>Click this link to check out the dashboard on your web browser:<br>
-  <a href="http://18.196.82.106:8000/" target="_blank"></a></li>
+  <a href="http://18.196.82.106:8000/" target="_blank"></a>Click here to check the AWS deployed Dashboard</li>
 </ul>
-
-
-
-http://18.196.82.106:8000/
