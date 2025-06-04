@@ -42,12 +42,12 @@
     <img src="raw_data.gif" alt="Interactive Financial Documents Tables" width="100%" max-width="800px"/>
   </div>
 </div>
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard had been deployed using Render</h2>
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">Deployment using Render.</h2>
 <ul>
   <li>Click this link to check out the dashboard on your web browser (might take a couple of minutes to charge):<br>
   <a href="https://project-dashboards-2.onrender.com" target="_blank">https://project-dashboards-2.onrender.com</a></li>
 </ul>
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">The Dashboard has also been deployed using AWS Amazon Lightsail</h2>
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">Deployment using AWS Amazon Lightsail.</h2>
 <ul>
   <li>Click this link to check out the dashboard on your web browser:<br>
   <a href="http://18.196.82.106:8000/" target="_blank"></a>http://18.196.82.106:8000/</li>
