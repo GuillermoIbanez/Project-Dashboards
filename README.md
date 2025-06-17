@@ -46,7 +46,7 @@
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Clipboard.png" alt="Presentation Icon" width="32" height="32" style="vertical-align: -0.25em;">Deployment using AWS Amazon Lightsail</h2>
 <ul>
-  <li>Click this link to check out the dashboard on your web browser:<br>
+  <li>Click this link to check out the dashboard on your web browser. I stopped paying AWS subscription so the link will not work at the moment.:<br>
     <a href="http://18.196.82.106:8000/" target="_blank">http://18.196.82.106:8000/</a>
   </li>
 </ul>
